@@ -1,0 +1,12 @@
+mkdir git-demo
+cd git-demo
+git init
+git status
+git branch
+git checkout -b dev
+git branch
+git checkout -b master
+git add test.py
+git commit -m "added test python code"
+git restore test.py
+git restore --staged<file>
